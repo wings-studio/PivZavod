@@ -1,15 +1,15 @@
 {
-	"ID": "1bf4eedd41508974d6646e8faa55420a",
+	"ID": "84b222064f5e1862b53c8aa0bfdb1690",
 	"TypeName": "FlaxEditor.Content.Settings.LinuxPlatformSettings",
-	"EngineBuild": 6222,
+	"EngineBuild": 6336,
 	"Data": {
-	"WindowMode": 0,
+	"WindowMode": 3,
 	"ScreenWidth": 1280,
 	"ScreenHeight": 720,
 	"ResizableWindow": false,
 	"RunInBackground": false,
 	"ForceSingleInstance": false,
-	"OverrideIcon": "00000000-0000-0000-0000-000000000000",
+	"OverrideIcon": null,
 	"SupportVulkan": true
 }
 }
