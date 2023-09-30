@@ -1,7 +1,7 @@
 {
 	"ID": "dbbf09b04712ddbee3b87aa15eeb44b8",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6336,
+	"EngineBuild": 6344,
 	"Data": [
 		{
 			"ID": "dbbf09b04712ddbee3b87aa15eeb44b8",
@@ -103,6 +103,7 @@
 			"ID": "8bdc81a74b30135cec141aa7abf8e5fe",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "dbbf09b04712ddbee3b87aa15eeb44b8",
+			"IsActive": false,
 			"Name": "Gameplay"
 		},
 		{
@@ -169,6 +170,7 @@
 			"ID": "258880764f94dfefa9fa0b8c9214d520",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "dbbf09b04712ddbee3b87aa15eeb44b8",
+			"IsActive": false,
 			"Name": "PrototypeScene"
 		},
 		{
@@ -942,6 +944,151 @@
 					"Y": 50.0,
 					"Z": 50.0
 				}
+			}
+		},
+		{
+			"ID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"PrefabID": "ea737a24402228eb6f079f9f45f3b8a4",
+			"PrefabObjectID": "206c3caf47a70c877d95cd9e4687bf89",
+			"ParentID": "dbbf09b04712ddbee3b87aa15eeb44b8",
+			"Name": "PivZavod",
+			"Transform": {
+				"Translation": {
+					"X": -68.19415283203125,
+					"Y": 130.0,
+					"Z": 589.0790405273438
+				},
+				"Scale": {
+					"X": 5.0,
+					"Y": 5.0,
+					"Z": 5.0
+				}
+			}
+		},
+		{
+			"ID": "a803a1bf41acc5dc284fd0aa3e9f24f6",
+			"PrefabID": "ea737a24402228eb6f079f9f45f3b8a4",
+			"PrefabObjectID": "ef0a2d5c4ef3a54b736b6da2e346adfb",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d77928d5485a93ce2aac5b90d4b611c7",
+			"PrefabID": "ea737a24402228eb6f079f9f45f3b8a4",
+			"PrefabObjectID": "4e72728a4b02d85049cfc5bf84b31654",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456"
+		},
+		{
+			"ID": "50c6fbc1414332b9243ed5ac8295fa94",
+			"TypeName": "FlaxEngine.NavMeshBoundsVolume",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "NavMeshBoundsVolume",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 189.79776000976563,
+					"Z": -200.65603637695313
+				}
+			},
+			"Size": {
+				"X": 800.0,
+				"Y": 400.0,
+				"Z": 2000.0
+			}
+		},
+		{
+			"ID": "fa809fff45a79b4364af598fa3ed7f67",
+			"TypeName": "Game.SpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "SpawnPoint 1",
+			"Transform": {
+				"Translation": {
+					"X": -122.31329345703125,
+					"Y": 17.098037719726564,
+					"Z": 440.72418212890627
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": -0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "020daa51402111e79372f687e03f371e",
+			"TypeName": "Game.SpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "SpawnPoint 2",
+			"Transform": {
+				"Translation": {
+					"X": 280.5258483886719,
+					"Y": 17.098037719726564,
+					"Z": 429.26470947265627
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": -0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "bbc640964ac85d3b14ac788d75932db3",
+			"TypeName": "Game.SpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "SpawnPoint 3",
+			"Transform": {
+				"Translation": {
+					"X": 239.2164306640625,
+					"Y": 17.098037719726564,
+					"Z": -611.636474609375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": -0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "137e767c4e3b5c178035cf930b13d427",
+			"TypeName": "Game.SpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "SpawnPoint 4",
+			"Transform": {
+				"Translation": {
+					"X": -164.87310791015626,
+					"Y": 17.098037719726564,
+					"Z": -1001.8662109375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": -0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "c1d337e14d13e7a543761ab08cb7a051",
+			"TypeName": "FlaxEngine.NavMesh",
+			"ParentID": "dbbf09b04712ddbee3b87aa15eeb44b8",
+			"Name": "NavMesh.Default",
+			"DataAsset": "65474d124d1efa3bff45718990dc2a9c",
+			"Properties": {
+				"Name": "Default",
+				"Agent": {}
 			}
 		}
 	]
