@@ -959,9 +959,9 @@
 					"Z": 589.0790405273438
 				},
 				"Scale": {
-					"X": 5.0,
-					"Y": 5.0,
-					"Z": 5.0
+					"X": 3.0,
+					"Y": 3.0,
+					"Z": 3.0
 				}
 			}
 		},
@@ -990,13 +990,13 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 189.79776000976563,
-					"Z": -200.65603637695313
+					"Y": 189.7977752685547,
+					"Z": -200.6560516357422
 				}
 			},
 			"Size": {
 				"X": 800.0,
-				"Y": 400.0,
+				"Y": 300.0,
 				"Z": 2000.0
 			}
 		},
@@ -1068,9 +1068,649 @@
 			"Name": "SpawnPoint 4",
 			"Transform": {
 				"Translation": {
-					"X": -164.87310791015626,
+					"X": -272.3574523925781,
 					"Y": 17.098037719726564,
-					"Z": -1001.8662109375
+					"Z": -1078.29296875
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": -0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "8677b3a34bf3e726ffb0869493c8a35e",
+			"TypeName": "Game.ZombieSpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "ZombieSpawnPoint",
+			"Transform": {
+				"Translation": {
+					"X": 333.9997253417969,
+					"Y": 89.1258773803711,
+					"Z": -118.44427490234375
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "845da2db4763013247cb75bb211943cd",
+			"TypeName": "Game.ZombieSpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "ZombieSpawnPoint 0",
+			"Transform": {
+				"Translation": {
+					"X": 333.99969482421877,
+					"Y": 99.71590423583985,
+					"Z": -314.5194091796875
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "3ddfe3f14dd729a7113b9ea2702c29fd",
+			"TypeName": "Game.ZombieSpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "ZombieSpawnPoint 1",
+			"Transform": {
+				"Translation": {
+					"X": 333.99969482421877,
+					"Y": 95.88316345214844,
+					"Z": -508.04864501953127
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "a1c8d3c94ad7fc5898ae60886c70f516",
+			"TypeName": "Game.ZombieSpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "ZombieSpawnPoint 2",
+			"Transform": {
+				"Translation": {
+					"X": 333.9996337890625,
+					"Y": 94.00851440429688,
+					"Z": -699.5684814453125
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "ddc728254df20f1fe66435980ae39b11",
+			"TypeName": "Game.ZombieSpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "ZombieSpawnPoint",
+			"Transform": {
+				"Translation": {
+					"X": 302.56781005859377,
+					"Y": -89.54608154296875,
+					"Z": -1041.65771484375
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "c9ebe32346ff462bbf4931a910114392",
+			"TypeName": "Game.ZombieSpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "ZombieSpawnPoint 0",
+			"Transform": {
+				"Translation": {
+					"X": 302.9686584472656,
+					"Y": -86.92086791992188,
+					"Z": -994.4054565429688
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "fbeb092b43c84b23906f3d822e33f2ef",
+			"PrefabID": "609ad36444a2374c4dad71b35346346d",
+			"PrefabObjectID": "676d3c9340f3b63e4bd9c385ce3cff7b",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "BeerTank2",
+			"Transform": {
+				"Translation": {
+					"X": 70.0,
+					"Y": 50.0,
+					"Z": -550.0
+				},
+				"Orientation": {
+					"X": 0.5,
+					"Y": -0.5000000596046448,
+					"Z": 0.5000000596046448,
+					"W": 0.5
+				}
+			}
+		},
+		{
+			"ID": "577eb7434cf4bdd594ea889d0f3318fd",
+			"PrefabID": "609ad36444a2374c4dad71b35346346d",
+			"PrefabObjectID": "db60536a45759e654560778897185596",
+			"ParentID": "fbeb092b43c84b23906f3d822e33f2ef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "362d15be4292da1da47961960658f983",
+			"PrefabID": "609ad36444a2374c4dad71b35346346d",
+			"PrefabObjectID": "1a538880427422c83740a7acc7a65986",
+			"ParentID": "fbeb092b43c84b23906f3d822e33f2ef"
+		},
+		{
+			"ID": "552c90ee4e2b25ddfdd1a89c8a3ebd7f",
+			"PrefabID": "609ad36444a2374c4dad71b35346346d",
+			"PrefabObjectID": "676d3c9340f3b63e4bd9c385ce3cff7b",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "BeerTank3",
+			"Transform": {
+				"Translation": {
+					"X": 70.0,
+					"Y": 50.0,
+					"Z": -317.406005859375
+				},
+				"Orientation": {
+					"X": 0.5,
+					"Y": -0.5000000596046448,
+					"Z": 0.5000000596046448,
+					"W": 0.5
+				}
+			}
+		},
+		{
+			"ID": "04ba63ab477d55d21640d1a138872b78",
+			"PrefabID": "609ad36444a2374c4dad71b35346346d",
+			"PrefabObjectID": "db60536a45759e654560778897185596",
+			"ParentID": "552c90ee4e2b25ddfdd1a89c8a3ebd7f",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "37ef97ab4f2473115e453db4c0f61ace",
+			"PrefabID": "609ad36444a2374c4dad71b35346346d",
+			"PrefabObjectID": "1a538880427422c83740a7acc7a65986",
+			"ParentID": "552c90ee4e2b25ddfdd1a89c8a3ebd7f"
+		},
+		{
+			"ID": "8e6214f1497a4b8086dd8c8c28c61816",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "35ba75af4069d6831a448dbd6a2725bf",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "BeerTanks",
+			"Transform": {
+				"Translation": {
+					"X": -247.7375946044922,
+					"Y": -0.8666890859603882,
+					"Z": -801.296875
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "a7b83f984ba629d79781c183dd3e078c",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "12bca721475e27e9d53f7fa8078cc022",
+			"ParentID": "8e6214f1497a4b8086dd8c8c28c61816"
+		},
+		{
+			"ID": "03f128404513e7e688a6768dd10155bd",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "aa5890ec4bcf9e9fd12127936137075e",
+			"ParentID": "a7b83f984ba629d79781c183dd3e078c"
+		},
+		{
+			"ID": "6d9e65244aad2db9ff37e195839387e2",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "2114f8cd448e7fd127f67b91904cba1a",
+			"ParentID": "a7b83f984ba629d79781c183dd3e078c"
+		},
+		{
+			"ID": "9f1280614aa1a703c143f19abb064387",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "9f0b8af04b34644149eb27af244984ca",
+			"ParentID": "a7b83f984ba629d79781c183dd3e078c"
+		},
+		{
+			"ID": "e695f3c54138623840dbf1805b77dc11",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "abe9a06d4ed366e5b7510b8fe5df35eb",
+			"ParentID": "8e6214f1497a4b8086dd8c8c28c61816"
+		},
+		{
+			"ID": "c8a624ab427de7aabaa1a4b26c7076ad",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "33cf95104b36c97a2038df8fdd734626",
+			"ParentID": "e695f3c54138623840dbf1805b77dc11"
+		},
+		{
+			"ID": "5cf44b494494c6211afae993a658b6b1",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "b15427f34c0a8a0be81617a9ef98071f",
+			"ParentID": "e695f3c54138623840dbf1805b77dc11"
+		},
+		{
+			"ID": "229938b1448a0b29d8d89e85c7aa3db5",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cf3f63e148ceab93c93db488ffb07d7d",
+			"ParentID": "e695f3c54138623840dbf1805b77dc11"
+		},
+		{
+			"ID": "0ef702424e802f38e569658467791321",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "22833c9446a648697c5e7eb9965f19f2",
+			"ParentID": "8e6214f1497a4b8086dd8c8c28c61816"
+		},
+		{
+			"ID": "24c53e084ba910efb5f5bbbb286a27e5",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "20d3116c440e85d3ed80f38bd14ec35e",
+			"ParentID": "0ef702424e802f38e569658467791321"
+		},
+		{
+			"ID": "ae3e6d30442a15fe9550c88fb2a36fc4",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "f8854e95471af939a9011bb5505373c4",
+			"ParentID": "0ef702424e802f38e569658467791321"
+		},
+		{
+			"ID": "165459d244bfb475bfde6a90acc11735",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "d93f318a46a1eb74dc3a8ab6975b722b",
+			"ParentID": "0ef702424e802f38e569658467791321"
+		},
+		{
+			"ID": "e5b1f1e14bc93aa0d03347a2f63b7eae",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cebf7262414c8486d261c2bbbe1eb9e7",
+			"ParentID": "8e6214f1497a4b8086dd8c8c28c61816"
+		},
+		{
+			"ID": "9ab839eb4baca728fccb23b3982b3d93",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "a4f9eed74c748b27c2e590b5e419734b",
+			"ParentID": "8e6214f1497a4b8086dd8c8c28c61816",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c73967b048102a7fd437e9a0440170a2",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "35ba75af4069d6831a448dbd6a2725bf",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "BeerTanks 0",
+			"Transform": {
+				"Translation": {
+					"X": -247.7375946044922,
+					"Y": -0.8666890859603882,
+					"Z": -937.5023803710938
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "8a720fec440448179be8a8820f10dd9b",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "12bca721475e27e9d53f7fa8078cc022",
+			"ParentID": "c73967b048102a7fd437e9a0440170a2"
+		},
+		{
+			"ID": "3afcddb94f55cf4731a95696bdb60ab4",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "aa5890ec4bcf9e9fd12127936137075e",
+			"ParentID": "8a720fec440448179be8a8820f10dd9b"
+		},
+		{
+			"ID": "43a840404576a66d299ae4aa83507cc9",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "2114f8cd448e7fd127f67b91904cba1a",
+			"ParentID": "8a720fec440448179be8a8820f10dd9b"
+		},
+		{
+			"ID": "bfd2179e4a24ef7ff6652abddbf639ac",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "9f0b8af04b34644149eb27af244984ca",
+			"ParentID": "8a720fec440448179be8a8820f10dd9b"
+		},
+		{
+			"ID": "34f97f684fb1e6c9c6dab6a0092f93ee",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "abe9a06d4ed366e5b7510b8fe5df35eb",
+			"ParentID": "c73967b048102a7fd437e9a0440170a2"
+		},
+		{
+			"ID": "5ed85f684dea3a44a85412abc17e2539",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "33cf95104b36c97a2038df8fdd734626",
+			"ParentID": "34f97f684fb1e6c9c6dab6a0092f93ee"
+		},
+		{
+			"ID": "6cf9034b42b8c6355728469ae419f2be",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "b15427f34c0a8a0be81617a9ef98071f",
+			"ParentID": "34f97f684fb1e6c9c6dab6a0092f93ee"
+		},
+		{
+			"ID": "578f2d8a4309cceec3d323841a6bf555",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cf3f63e148ceab93c93db488ffb07d7d",
+			"ParentID": "34f97f684fb1e6c9c6dab6a0092f93ee"
+		},
+		{
+			"ID": "e62f1a124c80e0eaeb3fe0852ec63e58",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "22833c9446a648697c5e7eb9965f19f2",
+			"ParentID": "c73967b048102a7fd437e9a0440170a2"
+		},
+		{
+			"ID": "c16adef64a4d9ae0cd6b72811343889d",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "20d3116c440e85d3ed80f38bd14ec35e",
+			"ParentID": "e62f1a124c80e0eaeb3fe0852ec63e58"
+		},
+		{
+			"ID": "42f21ef047e1055626ec27ba0dd08006",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "f8854e95471af939a9011bb5505373c4",
+			"ParentID": "e62f1a124c80e0eaeb3fe0852ec63e58"
+		},
+		{
+			"ID": "223b690447dbab3cda35b8b9b7678353",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "d93f318a46a1eb74dc3a8ab6975b722b",
+			"ParentID": "e62f1a124c80e0eaeb3fe0852ec63e58"
+		},
+		{
+			"ID": "54a0ab5342576182e34a4fa8b8289979",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cebf7262414c8486d261c2bbbe1eb9e7",
+			"ParentID": "c73967b048102a7fd437e9a0440170a2"
+		},
+		{
+			"ID": "ec7d7261450a82a67a3cdeb6b2dc2b17",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "a4f9eed74c748b27c2e590b5e419734b",
+			"ParentID": "c73967b048102a7fd437e9a0440170a2",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3f38369b4df2efba7cfb738824cae330",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "35ba75af4069d6831a448dbd6a2725bf",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "BeerTanks 1",
+			"Transform": {
+				"Translation": {
+					"X": -139.59341430664063,
+					"Y": -0.8666890859603882,
+					"Z": -801.296875
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "f0255f59454a0edfe53adabf68b381e0",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "12bca721475e27e9d53f7fa8078cc022",
+			"ParentID": "3f38369b4df2efba7cfb738824cae330"
+		},
+		{
+			"ID": "21553167458367e011f6ce90d25e56dc",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "aa5890ec4bcf9e9fd12127936137075e",
+			"ParentID": "f0255f59454a0edfe53adabf68b381e0"
+		},
+		{
+			"ID": "42c2da204b0b22cda8ec3c86e914b034",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "2114f8cd448e7fd127f67b91904cba1a",
+			"ParentID": "f0255f59454a0edfe53adabf68b381e0"
+		},
+		{
+			"ID": "f844f41b44f7946daf9300aa6053d5fd",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "9f0b8af04b34644149eb27af244984ca",
+			"ParentID": "f0255f59454a0edfe53adabf68b381e0"
+		},
+		{
+			"ID": "e38f8aca4ebc3417354f64bbb21b2fea",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "abe9a06d4ed366e5b7510b8fe5df35eb",
+			"ParentID": "3f38369b4df2efba7cfb738824cae330"
+		},
+		{
+			"ID": "1abd97404fd18b2756e13ebd5a7e664a",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "33cf95104b36c97a2038df8fdd734626",
+			"ParentID": "e38f8aca4ebc3417354f64bbb21b2fea"
+		},
+		{
+			"ID": "ecff5bfe4e73a564d1d2b69b5983c9a7",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "b15427f34c0a8a0be81617a9ef98071f",
+			"ParentID": "e38f8aca4ebc3417354f64bbb21b2fea"
+		},
+		{
+			"ID": "c3ec5c2842a6d9ab81958da054da4767",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cf3f63e148ceab93c93db488ffb07d7d",
+			"ParentID": "e38f8aca4ebc3417354f64bbb21b2fea"
+		},
+		{
+			"ID": "acd46fa94fb7bf3ce7c9ccba76b4ca0b",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "22833c9446a648697c5e7eb9965f19f2",
+			"ParentID": "3f38369b4df2efba7cfb738824cae330"
+		},
+		{
+			"ID": "27787fcc4e5b24f0d58e12a94f78714d",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "20d3116c440e85d3ed80f38bd14ec35e",
+			"ParentID": "acd46fa94fb7bf3ce7c9ccba76b4ca0b"
+		},
+		{
+			"ID": "ade56a7b42914ff42c436c88dab3207b",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "f8854e95471af939a9011bb5505373c4",
+			"ParentID": "acd46fa94fb7bf3ce7c9ccba76b4ca0b"
+		},
+		{
+			"ID": "d7b60181416b89cf0ac33088fb16c943",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "d93f318a46a1eb74dc3a8ab6975b722b",
+			"ParentID": "acd46fa94fb7bf3ce7c9ccba76b4ca0b"
+		},
+		{
+			"ID": "c95665e64312535b7a625eb92051e29c",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cebf7262414c8486d261c2bbbe1eb9e7",
+			"ParentID": "3f38369b4df2efba7cfb738824cae330"
+		},
+		{
+			"ID": "a4c861ee40c04a5c3e94f185849bb7b9",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "a4f9eed74c748b27c2e590b5e419734b",
+			"ParentID": "3f38369b4df2efba7cfb738824cae330",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4ff5bb524a2d826c4be9a9936bea827c",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "35ba75af4069d6831a448dbd6a2725bf",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "BeerTanks 2",
+			"Transform": {
+				"Translation": {
+					"X": -139.75759887695313,
+					"Y": -0.8666890859603882,
+					"Z": -937.5023803710938
+				},
+				"Scale": {
+					"X": 0.3333333432674408,
+					"Y": 0.3333333432674408,
+					"Z": 0.3333333432674408
+				}
+			}
+		},
+		{
+			"ID": "788db1f8483da687a147be8e3553908b",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "12bca721475e27e9d53f7fa8078cc022",
+			"ParentID": "4ff5bb524a2d826c4be9a9936bea827c"
+		},
+		{
+			"ID": "167e897545f1619a2edbcda071b54c43",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "aa5890ec4bcf9e9fd12127936137075e",
+			"ParentID": "788db1f8483da687a147be8e3553908b"
+		},
+		{
+			"ID": "58809355406bdb98103812bbb513d2ba",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "2114f8cd448e7fd127f67b91904cba1a",
+			"ParentID": "788db1f8483da687a147be8e3553908b"
+		},
+		{
+			"ID": "2bbbcd1942fde16df5a930812cae6d4c",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "9f0b8af04b34644149eb27af244984ca",
+			"ParentID": "788db1f8483da687a147be8e3553908b"
+		},
+		{
+			"ID": "73617c4b478be9a3b9577ca2ff56e6b6",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "abe9a06d4ed366e5b7510b8fe5df35eb",
+			"ParentID": "4ff5bb524a2d826c4be9a9936bea827c"
+		},
+		{
+			"ID": "73eb99cf4d9f693cc0ed7b98e0c025cf",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "33cf95104b36c97a2038df8fdd734626",
+			"ParentID": "73617c4b478be9a3b9577ca2ff56e6b6"
+		},
+		{
+			"ID": "58fe63594c0c2ff2af73d290e2f44a51",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "b15427f34c0a8a0be81617a9ef98071f",
+			"ParentID": "73617c4b478be9a3b9577ca2ff56e6b6"
+		},
+		{
+			"ID": "4205d4b3418c821897f9c9ad25b1e8ad",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cf3f63e148ceab93c93db488ffb07d7d",
+			"ParentID": "73617c4b478be9a3b9577ca2ff56e6b6"
+		},
+		{
+			"ID": "36af595744357daa8742f3a090eb7fbf",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "22833c9446a648697c5e7eb9965f19f2",
+			"ParentID": "4ff5bb524a2d826c4be9a9936bea827c"
+		},
+		{
+			"ID": "766014654fb7a7ebed153a851c0e8194",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "20d3116c440e85d3ed80f38bd14ec35e",
+			"ParentID": "36af595744357daa8742f3a090eb7fbf"
+		},
+		{
+			"ID": "07d1d2044ee695a0263364824583d1ba",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "f8854e95471af939a9011bb5505373c4",
+			"ParentID": "36af595744357daa8742f3a090eb7fbf"
+		},
+		{
+			"ID": "a63f8cda4d489e1f2590779949123190",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "d93f318a46a1eb74dc3a8ab6975b722b",
+			"ParentID": "36af595744357daa8742f3a090eb7fbf"
+		},
+		{
+			"ID": "78048cbf47070eef72e496bffec31986",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "cebf7262414c8486d261c2bbbe1eb9e7",
+			"ParentID": "4ff5bb524a2d826c4be9a9936bea827c"
+		},
+		{
+			"ID": "beea4bb441f7d016a99dd48faa9be6c9",
+			"PrefabID": "8fec101f456b3e511f1891a7a5477ee7",
+			"PrefabObjectID": "a4f9eed74c748b27c2e590b5e419734b",
+			"ParentID": "4ff5bb524a2d826c4be9a9936bea827c",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4e251a37450fac6c3ef7f79742db0379",
+			"TypeName": "Game.SpawnPoint",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"V": {},
+			"Name": "SpawnPoint 5",
+			"Transform": {
+				"Translation": {
+					"X": -129.27572631835938,
+					"Y": 17.098037719726564,
+					"Z": -119.13687133789063
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -1090,6 +1730,42 @@
 				"Name": "Default",
 				"Agent": {}
 			}
+		},
+		{
+			"ID": "4a89822247cf3e2ff91908894018e04d",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "dbbf09b04712ddbee3b87aa15eeb44b8",
+			"Name": "Zombie",
+			"Transform": {
+				"Translation": {
+					"X": 767.4940795898438,
+					"Y": 245.46783447265626,
+					"Z": -1505.9757080078126
+				},
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			},
+			"Radius": 35.0,
+			"Height": 30.0
+		},
+		{
+			"ID": "7637bfbb47b88a188692c983b1d4e65e",
+			"TypeName": "Game.Zombie",
+			"ParentID": "4a89822247cf3e2ff91908894018e04d",
+			"V": {}
+		},
+		{
+			"ID": "974bca8f4b263afa3f8c4ebf8cd118ec",
+			"TypeName": "FlaxEngine.SpriteRender",
+			"ParentID": "4a89822247cf3e2ff91908894018e04d",
+			"Name": "ZombieSprite",
+			"Sprite": {},
+			"Image": "b1b7d6974cafe520f2a177bf55ec748b",
+			"Material": "6542187d40386b3768d0818d98dbd63a",
+			"FaceCamera": false
 		}
 	]
 }
