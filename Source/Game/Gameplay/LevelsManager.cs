@@ -16,9 +16,13 @@ namespace Game
         public static LevelsManager Instance => GameInstance.Instance?.GetGameSystem<LevelsManager>();
 
         /// <summary>
-        /// Active spawn points.
+        /// Active spawn points for players.
         /// </summary>
         public readonly List<SpawnPoint> SpawnPoints = new List<SpawnPoint>();
+        /// <summary>
+        /// Active spawn points for zombies.
+        /// </summary>
+        public readonly List<ZombieSpawnPoint> ZombieSpawnPoints = new List<ZombieSpawnPoint>();
 
         /// <inheritdoc />
         public override void Initialize()
