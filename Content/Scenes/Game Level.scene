@@ -1721,6 +1721,37 @@
 			}
 		},
 		{
+			"ID": "ac7edd1640aafcb63113ca9c7b98e448",
+			"PrefabID": "da6075e943c40654c047b8950033bdb8",
+			"PrefabObjectID": "a2c435f642fab97cfa492eae6214c739",
+			"ParentID": "5bad1d4b4d0aa036c02e96b93c91f456",
+			"Name": "Hill",
+			"Transform": {
+				"Translation": {
+					"X": 87.17998504638672,
+					"Y": 36.0000114440918,
+					"Z": 570.5751953125
+				}
+			}
+		},
+		{
+			"ID": "955d921a4a723c51896885a5ef204ee6",
+			"PrefabID": "da6075e943c40654c047b8950033bdb8",
+			"PrefabObjectID": "6416530048727c1cb48677bfc9704cdb",
+			"ParentID": "ac7edd1640aafcb63113ca9c7b98e448",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bd208ed14b49f62406c0e4a1f1dd355c",
+			"PrefabID": "da6075e943c40654c047b8950033bdb8",
+			"PrefabObjectID": "ed4b42d349843e69ba02e5b4fb788bff",
+			"ParentID": "ac7edd1640aafcb63113ca9c7b98e448"
+		},
+		{
 			"ID": "c1d337e14d13e7a543761ab08cb7a051",
 			"TypeName": "FlaxEngine.NavMesh",
 			"ParentID": "dbbf09b04712ddbee3b87aa15eeb44b8",

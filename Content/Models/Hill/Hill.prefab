@@ -1,0 +1,43 @@
+{
+	"ID": "da6075e943c40654c047b8950033bdb8",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6344,
+	"Data": [
+	{
+		"ID": "a2c435f642fab97cfa492eae6214c739",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Root",
+		"Transform": {
+			"Scale": {
+				"X": 3.0,
+				"Y": 3.0,
+				"Z": 3.0
+			}
+		}
+	},
+	{
+		"ID": "6416530048727c1cb48677bfc9704cdb",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "a2c435f642fab97cfa492eae6214c739",
+		"Name": "StaticModel",
+		"Model": "47c1eea247fe121e591ae3b127ffbc0f",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "ed4b42d349843e69ba02e5b4fb788bff",
+		"TypeName": "FlaxEngine.MeshCollider",
+		"ParentID": "a2c435f642fab97cfa492eae6214c739",
+		"Name": "MeshCollider",
+		"CollisionData": "e6f9c5fb4e72bc22f5c5b8b8e0e5a318"
+	}
+]
+}
